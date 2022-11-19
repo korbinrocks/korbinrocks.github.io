@@ -185,7 +185,7 @@ body{
     .right-link{
         width: 100%;
     }
-    .footer-wrapper{
-        display: none;
-    }
+    #link{
+        margin-right: 15px;
+        margin-left: 5px;
 }
