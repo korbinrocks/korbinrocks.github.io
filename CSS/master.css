@@ -185,9 +185,6 @@ body{
     .right-link{
         width: 100%;
     }
-}
-
-@media screen and(max-height: 735px){
     .footer-wrapper{
         display: none;
     }
