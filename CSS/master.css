@@ -1,0 +1,188 @@
+/* Made with ♥ by dhil#0001 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background: #151515;
+}
+
+.content-wrapper{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.profile{
+    background: #292929;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.profile p{
+    margin: 10px 0;
+    color: #FFF;
+}
+
+.profile h1{
+    color: #FFF;
+}
+
+.profile-image-wrapper{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.location{
+    color: #929292;
+}
+
+.social-links{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo-wrapper{
+    margin-right: 10px;
+}
+
+
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+}
+
+.left-link {
+    margin-top: 15px;
+    padding: 10px;
+    background: #292929;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    left: 0px;
+    width: 49.25%;
+    float:left;
+    color: #FFF;
+    border-radius: 15px;
+}
+  
+.right-link {
+    margin-top: 15px;
+    padding: 10px;
+    background: #292929;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    right: 0px;
+    width: 49.25%;
+    float: right;
+    color: #FFF;
+    border-radius: 15px;
+}
+
+.social-link{
+ display: flex;
+    align-items: center;   
+}
+
+.social-link a:hover{
+    text-decoration: underline;
+}
+
+
+.social-link span:hover{
+    cursor: pointer;
+}
+
+.social-link i{
+    font-size: 30px;
+}
+
+.social-link a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.link-emoji i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.clipboard-emoji i{
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+#link {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.fa-discord{
+    color: #5865F2;
+}
+
+.footer-wrapper{
+    bottom: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer span{
+    color: #FFF;
+}
+
+.alert{
+    width: 100%;
+    position: fixed;
+    background-color: orange;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+    padding: 5px;
+}
+
+@media screen and (max-width: 825px){
+    .left-link{
+        width: 100%;
+    }
+    .social-link span{
+        text-align: center;
+    }
+    .right-link{
+        width: 100%;
+    }
+}
