@@ -128,9 +128,13 @@ body{
         font-size: 16px;
     }
     .grid-item .link{
-        margin: 14px;
+        margin: 9px;
     }
     .grid-item .link-icon{
-        margin: 14px;
+        margin: 1px;
+    }
+    .grid-item .image{
+        height: 40px;
+        width: 40px;
     }
 }
