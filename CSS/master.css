@@ -124,4 +124,13 @@ body{
     .grid-container{
         grid-template-columns: 100%;
     }
+    .grid-item{
+        font-size: 16px;
+    }
+    .grid-item .link{
+        margin: 14px;
+    }
+    .grid-item .link-icon{
+        margin: 14px;
+    }
 }
