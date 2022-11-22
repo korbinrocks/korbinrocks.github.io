@@ -6,18 +6,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/master.css">
-    <title>korbin.rocks - home</title>
-    <link rel="icon" type="image/png" href="./IMG/profile.jpg">
+    <link rel="stylesheet" href="css/master.css">
+    <title>korbin.rocks</title>
+    <link rel="icon" type="image/png" href="IMG/profile.jpg">
     <script src="https://kit.fontawesome.com/0923cc85a6.js" crossorigin="anonymous"></script>
-    <script src="./JS/main.js"></script>
+    <script src="JS/main.js"></script>
 </head>
 <body>
+
+    <!-- Copy to clipboard notification (not visible by default)-->
     <div id="alert" class="alert">
         <span>Copied "korbin#3621" to clipboard!</span>
     </div>
 
     <div class="content-wrapper">
+
+        <!-- Profile -->
         <div class="profile">
             <div class="profile-image-wrapper">
                 <img class="profile-image"src="IMG/profile.jpg">
@@ -25,42 +29,76 @@
             <h1>Korbin</h1>
             <p class="location"><i style="color: #E4212A;" class="fa-solid fa-location-dot"></i> United Kingdom</p>
         </div>
-        <div class="social-links">
-            <div class="left-link">
-                <div class="social-link">
-                    <i id="link" class="fa fa-youtube"></i>
-                    <a href="https://www.youtube.com/fowled" target="_blank"><span>youtube.com/fowled</span>
-                    <span class="link-emoji"><i class="fa-solid fa-up-right-from-square"></i></span></a>
-                </div>    
-            </div>
-            <div class="right-link">
-                <div class="social-link">
-                    <i id="link" class="fa fa-twitter"></i>
-                    <a href="https://www.twitter.com/fowledhypixel" target="_blank"><span>twitter.com/fowledhypixel</span>
-                    <span class="link-emoji"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+
+        <!-- Social links-->
+        <div class="grid-container">
+
+            <!-- YouTube Link -->
+            <div class="grid-item">
+                <div class="image">
+                    <img src="IMG/youtube.png">
+                </div>
+                <div class="link">
+                    <a href="https://www.youtube.com/fowled" target="_blank">
+                        <span>youtube.com/fowled</span>
+                    </a>
+                </div>
+                <div class="link-icon">
+                    <a href="https://www.youtube.com/fowled" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
-            <div class="left-link">
-                <div class="social-link">
-                    <i id="link" class="fa-brands fa-discord"></i>
-                    <span onclick="copyToClipboard()">korbin#3621</span>
-                </div>    
-            </div>
-            <div class="right-link">
-                <div class="social-link">
-                    <i id="link" class="fa-solid fa-magnifying-glass-dollar"></i>
-                    <a href="https://ogu.gg/fowled" target="_blank"><span>ogu.gg/fowled</span>
-                    <span class="link-emoji"><i class="fa-solid fa-up-right-from-square"></i></span></a>
+
+            <!-- Twitter Link -->
+            <div class="grid-item">
+                <div class="image">
+                    <img src="IMG/twitter.png">
+                </div>
+                <div class="link">
+                    <a href="https://www.twitter.com/fowledhypixel" target="_blank">
+                        <span>twitter.com/fowledhypixel</span>
+                    </a>
+                </div>
+                <div class="link-icon">
+                    <a href="https://www.twitter.com/fowledhypixel" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
-        </div>
+
+            <!-- Discord Tag Copy to clipboard-->
+            <div class="grid-item">
+                <div class="image">
+                    <img src="IMG/discord.png">
+                </div>
+                <div class="link">
+                    <span style="cursor: pointer" onclick="copyToClipboard()">korbin#3621</span>
+                </div>
+                <div class="link-icon">
+                    <!-- Copy to Clipboard Icon -->
+                    <i style="cursor: pointer; margin-right: 4px" onclick="copyToClipboard()" class="fa-regular fa-clipboard"></i>
+                </div>
+            </div>  
+
+            <!-- Ogu Link -->
+            <div class="grid-item">
+                <div class="image">
+                    <img src="IMG/ogu.webp">
+                </div>
+                <div class="link">
+                    <a href="https://ogu.gg/fowled" target="_blank">
+                        <span>ogu.gg/fowled</span>
+                    </a>
+                </div>
+                <div class="link-icon">
+                    <a href="https://ogu.gg/fowled" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div> 
+          </div>
+
     </div>
-    
-    <!-- 
-    <div class="footer-wrapper">
-        <div class="footer">
-            <span>www.korbin.rocks</span>
-        </div>
-    </div> !-->
 </body>
 </html>
