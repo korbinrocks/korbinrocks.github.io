@@ -125,7 +125,7 @@ body{
         grid-template-columns: 100%;
     }
     .grid-item{
-        font-size: 16px;
+        font-size: 15px;
     }
     .grid-item .link{
         margin: 9px;
