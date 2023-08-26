@@ -1,5 +1,5 @@
 function copyToClipboard(){
-    navigator.clipboard.writeText("korbin#3621");
+    navigator.clipboard.writeText("1korbin");
     
     element = document.getElementById("alert");
     fadeIn(element);
